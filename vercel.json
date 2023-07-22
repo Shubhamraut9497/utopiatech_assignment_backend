@@ -8,7 +8,7 @@
     "routes": [
       {
         "src": "/users",
-        "dest": "/backend_utopiatech/index.js"
+        "dest": "/index.js"
       }
     ],
     "output": {
