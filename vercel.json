@@ -1,0 +1,23 @@
+{
+    "builds": [
+      {
+        "src": "/**/*.ts",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/users",
+        "dest": "/backend_utopiatech/index.js"
+      }
+    ],
+    "output": {
+      "root": "backend_utopiatech" 
+    },
+    "env": {
+      "MONGO_URI": "mongodb+srv://shubhamrautraut9497:mFs3L7kKR440qwOT@utopiatech-assignment.zrmpnbc.mongodb.net/",
+      "PORT": "8000",
+      "SECRET_KEY": "shubhamraut.raut9497@gmail.comhelloworld"
+    }
+  }
+  
